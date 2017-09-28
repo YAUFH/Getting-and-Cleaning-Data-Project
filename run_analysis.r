@@ -52,4 +52,4 @@ tidydata <- aggregate(onedataset, by = list (subjectID = onedataset$subjectID), 
 
 View(tidydata)
 
-write.table(tidydata, "./tidydata.txt", row.names = TRUE, sep = "\t")
+write.table(tidydata, "./tidydata.txt", row.names = FALSE, sep = "\t")
